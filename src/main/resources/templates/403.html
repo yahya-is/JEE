@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+        layout:decorate="~{template}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div layout:fragment="content1">
+    <div class="container">
+<h2 class="text-danger">Vous n'etes pas autorisé a acceder a cette ressource</h2>
+    </div>
+</div>
+</body>
+</html>
